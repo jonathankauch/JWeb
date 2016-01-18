@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+    xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+    id="WebApp_ID" version="3.1">
+
+  <!-- LISTENER -->
+  <listener>
+    <listener-class>com.jweb.config.InitDAOFactory</listener-class>
+</listener>
+
+<!-- HOME -->
+<servlet>
+    <servlet-name>Home</servlet-name>
+    <servlet-class>com.jweb.servlets.Home</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>Home</servlet-name>
+    <url-pattern>/home</url-pattern>
+</servlet-mapping>
+
+<!--- REGISTER -->
+<servlet>
+    <servlet-name>Register</servlet-name>
+    <servlet-class>com.jweb.servlets.Register</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>Register</servlet-name>
+    <url-pattern>/register</url-pattern>
+</servlet-mapping>
+
+<!-- CONNEXION -->
+<servlet>
+    <servlet-name>Connexion</servlet-name>
+    <servlet-class>com.jweb.servlets.Connexion</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>Connexion</servlet-name>
+    <url-pattern>/connexion</url-pattern>
+</servlet-mapping>
+
+<!-- DECONNEXION -->
+<servlet>
+    <servlet-name>Deconnexion</servlet-name>
+    <servlet-class>com.jweb.servlets.Deconnexion</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>Deconnexion</servlet-name>
+    <url-pattern>/deconnexion</url-pattern>
+</servlet-mapping>
+
+<!-- Newsletter -->
+<servlet>
+    <servlet-name>Newsletter</servlet-name>
+    <servlet-class>com.jweb.servlets.Newsletter</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>Newsletter</servlet-name>
+    <url-pattern>/newsletter</url-pattern>
+</servlet-mapping>
+
+<!-- Product Page -->
+<servlet>
+    <servlet-name>ProductPage</servlet-name>
+    <servlet-class>com.jweb.servlets.ProductPage</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>ProductPage</servlet-name>
+    <url-pattern>/products</url-pattern>
+</servlet-mapping>
+
+<!-- Product Detail -->
+<servlet>
+    <servlet-name>ProductDetail</servlet-name>
+    <servlet-class>com.jweb.servlets.ProductDetail</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>ProductDetail</servlet-name>
+    <url-pattern>/product</url-pattern>
+</servlet-mapping>
+
+<!-- News Page -->
+<servlet>
+    <servlet-name>NewsPage</servlet-name>
+    <servlet-class>com.jweb.servlets.NewsPage</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>NewsPage</servlet-name>
+    <url-pattern>/all_news</url-pattern>
+</servlet-mapping>
+
+<!-- News Detail -->
+<servlet>
+    <servlet-name>NewsDetail</servlet-name>
+    <servlet-class>com.jweb.servlets.NewsDetail</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>NewsDetail</servlet-name>
+    <url-pattern>/newsDetail</url-pattern>
+</servlet-mapping>
+
+<!-- ADMIN HOME -->
+<servlet>
+    <servlet-name>AdminHome</servlet-name>
+    <servlet-class>com.jweb.servlets.AdminHome</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>AdminHome</servlet-name>
+    <url-pattern>/admin/home</url-pattern>
+</servlet-mapping> 
+
+<!-- ADMIN CONNEXION -->
+<servlet>
+    <servlet-name>AdminConnexion</servlet-name>
+    <servlet-class>com.jweb.servlets.AdminConnexion</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>AdminConnexion</servlet-name>
+    <url-pattern>/admin/connexion</url-pattern>
+</servlet-mapping>
+
+<!-- ADMIN PRODUCTS -->
+<servlet>
+    <servlet-name>AdminProducts</servlet-name>
+    <servlet-class>com.jweb.servlets.AdminProducts</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>AdminProducts</servlet-name>
+    <url-pattern>/admin/products</url-pattern>
+</servlet-mapping>
+
+<!-- ADMIN ADD PRODUCT -->
+<servlet>
+    <servlet-name>AdminAddProduct</servlet-name>
+    <servlet-class>com.jweb.servlets.AdminAddProduct</servlet-class>
+    <init-param>
+        <param-name>path</param-name> 
+        <param-value>/Users/jonathankauch/Documents/workspacej2ee/JWeb/WebContent/upload</param-value> 
+    </init-param>
+
+    <multipart-config>
+        <location>/Users/jonathankauch/Desktop/tmp</location>
+        <max-file-size>10485760</max-file-size> <!-- 10 Mo -->
+        <max-request-size>52428800</max-request-size> <!-- 5 x 10 Mo -->
+        <file-size-threshold>1048576</file-size-threshold> <!-- 1 Mo -->
+    </multipart-config>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>AdminAddProduct</servlet-name>
+    <url-pattern>/admin/addProduct</url-pattern>
+</servlet-mapping>
+
+<!-- ADMIN EDIT PRODUCTS -->
+<servlet>
+    <servlet-name>AdminEditProduct</servlet-name>
+    <servlet-class>com.jweb.servlets.AdminEditProduct</servlet-class>
+    <init-param>
+        <param-name>path</param-name> 
+        <param-value>/Users/jonathankauch/Documents/workspacej2ee/JWeb/WebContent/upload</param-value> 
+    </init-param>
+
+    <multipart-config>
+        <location>/Users/jonathankauch/Desktop/tmp</location>
+        <max-file-size>10485760</max-file-size> <!-- 10 Mo -->
+        <max-request-size>52428800</max-request-size> <!-- 5 x 10 Mo -->
+        <file-size-threshold>1048576</file-size-threshold> <!-- 1 Mo -->
+    </multipart-config>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>AdminEditProduct</servlet-name>
+    <url-pattern>/admin/editProduct</url-pattern>
+</servlet-mapping>
+
+<!-- ADMIN DELETE PRODUCTS -->
+<servlet>
+    <servlet-name>AdminDeleteProduct</servlet-name>
+    <servlet-class>com.jweb.servlets.AdminDeleteProduct</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>AdminDeleteProduct</servlet-name>
+    <url-pattern>/admin/deleteProduct</url-pattern>
+</servlet-mapping>
+
+<!-- ADMIN NEWS -->
+<servlet>
+    <servlet-name>AdminNewsPage</servlet-name>
+    <servlet-class>com.jweb.servlets.AdminNewsPage</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>AdminNewsPage</servlet-name>
+    <url-pattern>/admin/all_news</url-pattern>
+</servlet-mapping>
+
+<!-- ADMIN DELETE NEWS -->
+<servlet>
+    <servlet-name>AdminDeleteNews</servlet-name>
+    <servlet-class>com.jweb.servlets.AdminDeleteNews</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>AdminDeleteNews</servlet-name>
+    <url-pattern>/admin/deleteNews</url-pattern>
+</servlet-mapping>
+
+<!-- ADMIN ADD NEWS -->
+<servlet>
+    <servlet-name>AdminAddNews</servlet-name>
+    <servlet-class>com.jweb.servlets.AdminAddNews</servlet-class>
+    <init-param>
+        <param-name>path</param-name> 
+        <param-value>/Users/jonathankauch/Documents/workspacej2ee/JWeb/WebContent/upload</param-value> 
+    </init-param>
+
+    <multipart-config>
+        <location>/Users/jonathankauch/Desktop/tmp</location>
+        <max-file-size>10485760</max-file-size> <!-- 10 Mo -->
+        <max-request-size>52428800</max-request-size> <!-- 5 x 10 Mo -->
+        <file-size-threshold>1048576</file-size-threshold> <!-- 1 Mo -->
+    </multipart-config>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>AdminAddNews</servlet-name>
+    <url-pattern>/admin/addNews</url-pattern>
+</servlet-mapping>
+
+<!-- ADMIN EDIT NEWS -->
+
+<servlet>
+    <servlet-name>AdminEditNews</servlet-name>
+    <servlet-class>com.jweb.servlets.AdminEditNews</servlet-class>
+    <init-param>
+        <param-name>path</param-name> 
+        <param-value>/Users/jonathankauch/Documents/workspacej2ee/JWeb/WebContent/upload</param-value> 
+    </init-param>
+
+    <multipart-config>
+        <location>/Users/jonathankauch/Desktop/tmp</location>
+        <max-file-size>10485760</max-file-size> <!-- 10 Mo -->
+        <max-request-size>52428800</max-request-size> <!-- 5 x 10 Mo -->
+        <file-size-threshold>1048576</file-size-threshold> <!-- 1 Mo -->
+    </multipart-config>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>AdminEditNews</servlet-name>
+    <url-pattern>/admin/editNews</url-pattern>
+</servlet-mapping>
+
+<!-- ADMIN USERS -->
+<servlet>
+    <servlet-name>AdminUsers</servlet-name>
+    <servlet-class>com.jweb.servlets.AdminUsers</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>AdminUsers</servlet-name>
+    <url-pattern>/admin/users</url-pattern>
+</servlet-mapping>
+
+<!-- ADMIN DELETE USER -->
+<servlet>
+    <servlet-name>AdminDeleteUser</servlet-name>
+    <servlet-class>com.jweb.servlets.AdminDeleteUser</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>AdminDeleteUser</servlet-name>
+    <url-pattern>/admin/deleteUser</url-pattern>
+</servlet-mapping>
+
+<!-- ADMIN EDIT USER -->c
+<servlet>
+    <servlet-name>AdminEditUser</servlet-name>
+    <servlet-class>com.jweb.servlets.AdminEditUser</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>AdminEditUser</servlet-name>
+    <url-pattern>/admin/editUser</url-pattern>
+</servlet-mapping>
+
+<!-- FILTRE -->
+<filter>
+    <filter-name>RestrictionFilter</filter-name>
+    <filter-class>com.jweb.filter.RestrictionFilter</filter-class>
+</filter>
+
+<filter-mapping>
+    <filter-name>RestrictionFilter</filter-name>
+    <url-pattern>/admin/*</url-pattern>
+</filter-mapping>
+
+
+<filter>
+    <filter-name>Set Character Encoding</filter-name>
+    <filter-class>org.apache.catalina.filters.SetCharacterEncodingFilter</filter-class>
+    <init-param>
+        <param-name>encoding</param-name>
+        <param-value>UTF-8</param-value>
+    </init-param>
+    <init-param>
+        <param-name>ignore</param-name>
+        <param-value>false</param-value>
+    </init-param>
+</filter>
+
+<filter-mapping>
+    <filter-name>Set Character Encoding</filter-name>
+    <url-pattern>/*</url-pattern>
+</filter-mapping>
+
+</web-app>

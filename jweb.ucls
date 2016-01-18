@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.9" icons="true" automaticImage="PNG" always-add-relationships="true" generalizations="true" 
+  realizations="true" associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.jweb.beans.NewsletterList" project="JWeb" 
+    file="/JWeb/src/com/jweb/beans/NewsletterList.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="364" y="398"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.jweb.beans.News" project="JWeb" file="/JWeb/src/com/jweb/beans/News.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="645" y="284"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.jweb.beans.Newsletter" project="JWeb" 
+    file="/JWeb/src/com/jweb/beans/Newsletter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="274" y="1395"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.jweb.beans.User" project="JWeb" file="/JWeb/src/com/jweb/beans/User.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="371" y="879"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.jweb.beans.Product" project="JWeb" 
+    file="/JWeb/src/com/jweb/beans/Product.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="310" y="1929"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.jweb.config.InitDAOFactory" project="JWeb" 
+    file="/JWeb/src/com/jweb/config/InitDAOFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1810" y="893"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.jweb.dao.DAOConfigurationException" project="JWeb" 
+    file="/JWeb/src/com/jweb/dao/DAOConfigurationException.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="694" y="1294"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="com.jweb.dao.DAONews" project="JWeb" file="/JWeb/src/com/jweb/dao/DAONews.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1359" y="1579"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="com.jweb.dao.DAOException" project="JWeb" 
+    file="/JWeb/src/com/jweb/dao/DAOException.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="354" y="151"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="com.jweb.dao.DAOFactory" project="JWeb" 
+    file="/JWeb/src/com/jweb/dao/DAOFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2195" y="1507"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="com.jweb.dao.DAOProduct" project="JWeb" 
+    file="/JWeb/src/com/jweb/dao/DAOProduct.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2921" y="1503"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="com.jweb.dao.DAONewsletterList" project="JWeb" 
+    file="/JWeb/src/com/jweb/dao/DAONewsletterList.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2675" y="1114"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="com.jweb.dao.DAOUser" project="JWeb" file="/JWeb/src/com/jweb/dao/DAOUser.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2325" y="821"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="com.jweb.filter.RestrictionFilter" project="JWeb" 
+    file="/JWeb/src/com/jweb/filter/RestrictionFilter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="494" y="2330"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="com.jweb.forms.ConnexionForm" project="JWeb" 
+    file="/JWeb/src/com/jweb/forms/ConnexionForm.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2335" y="215"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="com.jweb.forms.RegisterForm" project="JWeb" 
+    file="/JWeb/src/com/jweb/forms/RegisterForm.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="957" y="278"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="com.jweb.forms.ProductForm" project="JWeb" 
+    file="/JWeb/src/com/jweb/forms/ProductForm.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3733" y="471"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="com.jweb.forms.UserForm" project="JWeb" 
+    file="/JWeb/src/com/jweb/forms/UserForm.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2636" y="260"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="com.jweb.forms.NewsForm" project="JWeb" 
+    file="/JWeb/src/com/jweb/forms/NewsForm.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="665" y="1849"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="com.jweb.forms.NewsletterListForm" project="JWeb" 
+    file="/JWeb/src/com/jweb/forms/NewsletterListForm.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2938" y="720"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="com.jweb.servlets.AdminEditNews" project="JWeb" 
+    file="/JWeb/src/com/jweb/servlets/AdminEditNews.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1103" y="2164"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="com.jweb.servlets.AdminUsers" project="JWeb" 
+    file="/JWeb/src/com/jweb/servlets/AdminUsers.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2000" y="161"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="com.jweb.servlets.Header" project="JWeb" 
+    file="/JWeb/src/com/jweb/servlets/Header.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="704" y="835"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="com.jweb.servlets.Connexion" project="JWeb" 
+    file="/JWeb/src/com/jweb/servlets/Connexion.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2962" y="188"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="com.jweb.servlets.Newsletter" project="JWeb" 
+    file="/JWeb/src/com/jweb/servlets/Newsletter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3300" y="702"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="com.jweb.servlets.AdminHome" project="JWeb" 
+    file="/JWeb/src/com/jweb/servlets/AdminHome.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="884" y="2453"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="com.jweb.servlets.AdminAddNews" project="JWeb" 
+    file="/JWeb/src/com/jweb/servlets/AdminAddNews.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2154" y="2095"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="com.jweb.servlets.AdminDeleteProduct" project="JWeb" 
+    file="/JWeb/src/com/jweb/servlets/AdminDeleteProduct.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3575" y="1638"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="com.jweb.servlets.AdminProducts" project="JWeb" 
+    file="/JWeb/src/com/jweb/servlets/AdminProducts.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3757" y="1139"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="30" language="java" name="com.jweb.servlets.AdminAddProduct" project="JWeb" 
+    file="/JWeb/src/com/jweb/servlets/AdminAddProduct.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3758" y="1380"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="31" language="java" name="com.jweb.servlets.AdminEditUser" project="JWeb" 
+    file="/JWeb/src/com/jweb/servlets/AdminEditUser.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3325" y="197"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="32" language="java" name="com.jweb.servlets.Deconnexion" project="JWeb" 
+    file="/JWeb/src/com/jweb/servlets/Deconnexion.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="693" y="609"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="33" language="java" name="com.jweb.servlets.ProductPage" project="JWeb" 
+    file="/JWeb/src/com/jweb/servlets/ProductPage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3389" y="1955"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="34" language="java" name="com.jweb.servlets.ProductDetail" project="JWeb" 
+    file="/JWeb/src/com/jweb/servlets/ProductDetail.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3215" y="2180"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="35" language="java" name="com.jweb.servlets.AdminEditProduct" project="JWeb" 
+    file="/JWeb/src/com/jweb/servlets/AdminEditProduct.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3739" y="861"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="36" language="java" name="com.jweb.servlets.AdminConnexion" project="JWeb" 
+    file="/JWeb/src/com/jweb/servlets/AdminConnexion.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1276" y="188"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="37" language="java" name="com.jweb.servlets.NewsDetail" project="JWeb" 
+    file="/JWeb/src/com/jweb/servlets/NewsDetail.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1902" y="2396"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="38" language="java" name="com.jweb.servlets.AdminDeleteUser" project="JWeb" 
+    file="/JWeb/src/com/jweb/servlets/AdminDeleteUser.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1312" y="657"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="39" language="java" name="com.jweb.servlets.Register" project="JWeb" 
+    file="/JWeb/src/com/jweb/servlets/Register.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1639" y="179"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="40" language="java" name="com.jweb.servlets.NewsPage" project="JWeb" 
+    file="/JWeb/src/com/jweb/servlets/NewsPage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1544" y="2396"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="41" language="java" name="com.jweb.servlets.Home" project="JWeb" 
+    file="/JWeb/src/com/jweb/servlets/Home.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2661" y="2066"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="42" language="java" name="com.jweb.servlets.AdminDeleteNews" project="JWeb" 
+    file="/JWeb/src/com/jweb/servlets/AdminDeleteNews.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1092" y="1105"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="43" language="java" name="com.jweb.servlets.AdminNewsPage" project="JWeb" 
+    file="/JWeb/src/com/jweb/servlets/AdminNewsPage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1561" y="1228"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="44">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="45" name="daoFactory"/>      
+      <multiplicity id="46" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="47">    
+    <end type="SOURCE" refId="36" navigable="false">      
+      <attribute id="48" name="daoUser"/>      
+      <multiplicity id="49" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="50">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <dependency id="51">    
+    <end type="SOURCE" refId="39"/>    
+    <end type="TARGET" refId="16"/>  
+  </dependency>  
+  <dependency id="52">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <association id="53">    
+    <end type="SOURCE" refId="40" navigable="false">      
+      <attribute id="54" name="daoNews"/>      
+      <multiplicity id="55" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="56">    
+    <end type="SOURCE" refId="42"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="57">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <association id="58">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="59" name="daoFactory"/>      
+      <multiplicity id="60" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="61">    
+    <end type="SOURCE" refId="37" navigable="false">      
+      <attribute id="62" name="daoNews"/>      
+      <multiplicity id="63" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="64">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <association id="65">    
+    <end type="SOURCE" refId="39" navigable="false">      
+      <attribute id="66" name="daoUser"/>      
+      <multiplicity id="67" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="68">    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="18"/>  
+  </dependency>  
+  <dependency id="69">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="70">    
+    <end type="SOURCE" refId="40"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="71">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="72">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="73">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="74">    
+    <end type="SOURCE" refId="35"/>    
+    <end type="TARGET" refId="17"/>  
+  </dependency>  
+  <association id="75">    
+    <end type="SOURCE" refId="41" navigable="false">      
+      <attribute id="76" name="daoNews"/>      
+      <multiplicity id="77" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="78">    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="79">    
+    <end type="SOURCE" refId="36"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="80">    
+    <end type="SOURCE" refId="36"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <association id="81">    
+    <end type="SOURCE" refId="27" navigable="false">      
+      <attribute id="82" name="daoNews"/>      
+      <multiplicity id="83" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="84">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="85">    
+    <end type="SOURCE" refId="29"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="86">    
+    <end type="SOURCE" refId="39"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="87">    
+    <end type="SOURCE" refId="34"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <association id="88">    
+    <end type="SOURCE" refId="33" navigable="false">      
+      <attribute id="89" name="daoProduct"/>      
+      <multiplicity id="90" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="91">    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="92" name="daoProduct"/>      
+      <multiplicity id="93" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="94">    
+    <end type="SOURCE" refId="42"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <association id="95">    
+    <end type="SOURCE" refId="41" navigable="false">      
+      <attribute id="96" name="daoProduct"/>      
+      <multiplicity id="97" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="98">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="15"/>  
+  </dependency>  
+  <dependency id="99">    
+    <end type="SOURCE" refId="43"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="100">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="101">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <dependency id="102">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <association id="103">    
+    <end type="SOURCE" refId="34" navigable="false">      
+      <attribute id="104" name="daoProduct"/>      
+      <multiplicity id="105" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="106">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="107">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <association id="108">    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="109" name="daoNews"/>      
+      <multiplicity id="110" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="111">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="112" name="daoUser"/>      
+      <multiplicity id="113" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="114">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="115">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="116">    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <association id="117">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="118" name="daoUser"/>      
+      <multiplicity id="119" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="120">    
+    <end type="SOURCE" refId="39"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <association id="121">    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="122" name="daoUser"/>      
+      <multiplicity id="123" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="124">    
+    <end type="SOURCE" refId="25" navigable="false">      
+      <attribute id="125" name="daoNewsletterList"/>      
+      <multiplicity id="126" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="127">    
+    <end type="SOURCE" refId="33"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="128">    
+    <end type="SOURCE" refId="34"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="129">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="130">    
+    <end type="SOURCE" refId="33"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="131">    
+    <end type="SOURCE" refId="37"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="132">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <dependency id="133">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="134">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <dependency id="135">    
+    <end type="SOURCE" refId="35"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <association id="136">    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="137" name="daoProduct"/>      
+      <multiplicity id="138" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="139">    
+    <end type="SOURCE" refId="35" navigable="false">      
+      <attribute id="140" name="daoProduct"/>      
+      <multiplicity id="141" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="142">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="19"/>  
+  </dependency>  
+  <association id="143">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="144" name="daoFactory"/>      
+      <multiplicity id="145" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="146">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <dependency id="147">    
+    <end type="SOURCE" refId="41"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="148">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="12"/>  
+  </dependency>  
+  <association id="149">    
+    <end type="SOURCE" refId="42" navigable="false">      
+      <attribute id="150" name="daoNews"/>      
+      <multiplicity id="151" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="152">    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="17"/>  
+  </dependency>  
+  <dependency id="153">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <dependency id="154">    
+    <end type="SOURCE" refId="41"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="155">    
+    <end type="SOURCE" refId="41"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="156">    
+    <end type="SOURCE" refId="40"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="157">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="158">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <association id="159">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="160" name="daoUser"/>      
+      <multiplicity id="161" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="162">    
+    <end type="SOURCE" refId="38"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <association id="163">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="164" name="daoFactory"/>      
+      <multiplicity id="165" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="166">    
+    <end type="SOURCE" refId="38"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="167">    
+    <end type="SOURCE" refId="43"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="168">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="169">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="170">    
+    <end type="SOURCE" refId="36"/>    
+    <end type="TARGET" refId="15"/>  
+  </dependency>  
+  <dependency id="171">    
+    <end type="SOURCE" refId="29"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <association id="172">    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="173" name="daoNews"/>      
+      <multiplicity id="174" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="175">    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="176">    
+    <end type="SOURCE" refId="35"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <association id="177">    
+    <end type="SOURCE" refId="29" navigable="false">      
+      <attribute id="178" name="daoProduct"/>      
+      <multiplicity id="179" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="180">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="181">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <association id="182">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="183" name="daoUser"/>      
+      <multiplicity id="184" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="185">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <association id="186">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="187" name="daoNewsletterList"/>      
+      <multiplicity id="188" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="189">    
+    <end type="SOURCE" refId="28" navigable="false">      
+      <attribute id="190" name="daoProduct"/>      
+      <multiplicity id="191" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="192">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <association id="193">    
+    <end type="SOURCE" refId="31" navigable="false">      
+      <attribute id="194" name="daoUser"/>      
+      <multiplicity id="195" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="196">    
+    <end type="SOURCE" refId="38" navigable="false">      
+      <attribute id="197" name="daoUser"/>      
+      <multiplicity id="198" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="199">    
+    <end type="SOURCE" refId="37"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <association id="200">    
+    <end type="SOURCE" refId="43" navigable="false">      
+      <attribute id="201" name="daoNews"/>      
+      <multiplicity id="202" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="203">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="204">    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="205">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="20"/>  
+  </dependency>  
+  <dependency id="206">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="19"/>  
+  </dependency>  
+  <association id="207">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="208" name="daoFactory"/>      
+      <multiplicity id="209" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
